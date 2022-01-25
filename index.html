@@ -35,9 +35,15 @@
 
          </div>
        </nav>
-       <div class="carousel slide" data-ride="carousel" data-interval="1800">
+       <div class="carousel slide" data-ride="carousel" data-interval="1800" id="slider">
 
 <!--           <three parts of carousel  inner,indicator,control>-->
+           <ol class="carousel-indicators">
+               <li data-target="#slider" data-slide-to="0" class="active"></li>
+               <li data-target="#slider" data-slide-to="1"></li>
+               <li data-target="#slider" data-slide-to="2"></li>
+               <li data-target="#slider" data-slide-to="3"></li>
+           </ol>
            <div class="carousel-inner">
                <div class="carousel-item active">
                    <img src="img/1.jpg" alt="" class="w-100 slider-height" />
@@ -55,6 +61,13 @@
                </div>
 
            </div>
+
+           <a href="" class="carousel-control-prev" data-slide="pre">
+               <span class="carousel-control-prev-icon"></span>
+           </a>
+           <a href="" class="carousel-control-next" data-slide="next">
+               <span class="carousel-control-next-icon"></span>
+           </a>
 
        </div>
 
